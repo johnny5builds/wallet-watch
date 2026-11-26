@@ -1,0 +1,9 @@
+{
+  "name": "wallet-watch",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Watch Solana addresses for balance changes and fire a webhook. Read-only, deduped, zero dependencies.",
+  "scripts": { "test": "node --test test/watch.test.mjs" },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}
